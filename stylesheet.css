@@ -1,0 +1,38 @@
+.navigate {
+	width:10%;
+	height:100%;
+	float:left;
+	background-color: beige;
+}
+
+.secondary {
+	width: 15%;
+	height:500px;
+	float:right;
+	background-color: lightblue;
+}
+
+.primary {
+	background-color: lightyellow;
+	float:inherit;
+	
+}
+.style {
+	text-align: center;
+	font-style: bold;
+	font-size: 60px;
+	font-family: inherit;
+	float: left;
+}
+.headliner {
+	font-style: bold;
+	padding-top: 110px;
+
+}
+.articlecontainer {
+	width: 400px;
+	height: 810px;
+	margin-left: 200px;
+
+}
+
