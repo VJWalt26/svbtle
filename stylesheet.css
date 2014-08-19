@@ -2,37 +2,63 @@
 	width:10%;
 	height:100%;
 	float:left;
-	background-color: beige;
 }
 
 .secondary {
 	width: 15%;
 	height:500px;
 	float:right;
-	background-color: lightblue;
 }
 
 .primary {
-	background-color: lightyellow;
-	float:inherit;
-	
+	display:inline;
 }
 .style {
-	text-align: center;
+	text-align: left;
 	font-style: bold;
-	font-size: 60px;
-	font-family: inherit;
-	float: left;
+	font-size: 50px;
+	font-family: monospace;
+	padding-left: 0px;
+	
 }
 .headliner {
 	font-style: bold;
-	padding-top: 110px;
+
 
 }
 .articlecontainer {
 	width: 400px;
 	height: 810px;
 	margin-left: 200px;
-
+	display:inline-block;
 }
 
+.choices {
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+
+#list {
+	padding-top:10px;
+	padding-bottom:10px;
+	color:grey;
+}
+.Also {
+	color:lightgrey;
+	font-family: serif;
+	font-size: 30px;
+}	
+.author {
+	color:red;
+	font-family:serif;
+}
+#topics{
+	color:grey;
+}
+#writers{
+	color:grey;
+}
+article {
+	color:grey;
+}
